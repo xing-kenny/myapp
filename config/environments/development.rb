@@ -34,4 +34,7 @@ Myapp::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # Use dev assets for ember
+  config.ember.variant = :development
 end
