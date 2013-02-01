@@ -20,6 +20,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+# gem 'active_model_serializers', github: 'rails-api/active_model_serializers'
 gem 'jquery-rails'
 gem 'ember-rails', github: 'emberjs/ember-rails'
 

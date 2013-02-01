@@ -1,11 +1,8 @@
 Myapp::Application.routes.draw do
-  resources :posts
-
-
   root :to => 'helloworld#say'
-  resources :contacts
+  resources :posts
   scope ":ccc" do
-    resources :contacts
+    resources :posts
   end
   scope :module => "admin" do
     resources :posts
